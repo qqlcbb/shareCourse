@@ -1,0 +1,16 @@
+<script type="text/javascript">
+	function test() {
+		var str = document.getElementById('text').value;
+		document.getElementById("t").innerHTML = "<a href='" +str+"' >testlink</a>";
+	}
+</script>
+<div id="t"></div>
+<input type="text" id="text" value=""/>
+<input type="button" id="s"  value="write" onclick="test()"/>
+
+
+<a href=''> <img src=# onerror=alert(1) /><'  ' >testlink</a>
+
+
+
+<!-- '> <img src=# onerror=alert(1) /><' -->
